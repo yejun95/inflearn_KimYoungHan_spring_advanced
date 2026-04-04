@@ -1,6 +1,7 @@
 package hello.advanced.trace.stratesy.code.strategy;
 
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Test;
 
 /**
  * 필드에 전략을 보관하는 방식
@@ -23,4 +24,5 @@ public class ContextV1 {
         long resultTIle = endTime - startTime;
         log.info("resultTime={}", resultTIle);
     }
+
 }
